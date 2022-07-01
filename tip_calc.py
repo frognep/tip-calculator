@@ -7,4 +7,4 @@ num_of_people = int(input("How many people to split the bill? "))
 total_w_tip = total_bill + total_bill * (percent_tip / 100)
 total_for_all = total_w_tip / num_of_people
 
-print(f"Each person should pay: ${round(total_for_all, 2)}")
+print(f"Each person should pay: ${total_for_all:.2f}") #-string to format final amount to the nearest 2 decimal places
